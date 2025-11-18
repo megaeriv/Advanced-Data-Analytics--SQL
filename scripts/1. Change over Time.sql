@@ -2,7 +2,6 @@
 ---------------------------------------------
 -- CHANGE OVER TIME
 ---------------------------------------------
-
 This analysis focuses on measuring of how measures eveolves over time, 
 helping undertand trends and seasonality
 */
