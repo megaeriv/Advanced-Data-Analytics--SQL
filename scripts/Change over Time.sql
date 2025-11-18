@@ -1,6 +1,12 @@
+/*
 ---------------------------------------------
 -- CHANGE OVER TIME
 ---------------------------------------------
+
+This analysis focuses on measuring of how measures eveolves over time, 
+helping undertand trends and seasonality
+*/
+
 -- A. Analyze Sales performance over time
 SELECT
 	YEAR(order_date) AS order_year,
