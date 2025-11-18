@@ -14,14 +14,23 @@ My data analytics would cover these areas:
 5. Data Segmentation 🗂️
 6. Reporting 📝
 
+
+
 ### 1. Change over Time ⏳
+- This is a technique to analyze how a measure evolves over time  
+- It helps track trends and identify seasonality of data 
 
 ### 2. Cumulative Analysis 📈
 
+
 ### 3. Performance Analysis ⚙️
+
 
 ### 4. Part-to-Whole 🧩
 
+
 ### 5. Data Segmentation 🗂️
 
+
 ### 6. Reporting 📝
+
