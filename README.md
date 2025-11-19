@@ -21,10 +21,12 @@ My data analytics would cover these areas:
 - It helps track trends and identify seasonality of data 
 
 ### 2. Cumulative Analysis 📈
-
+- This is the agrregation of data progressibely over time
+- Helps to understand business growth
 
 ### 3. Performance Analysis ⚙️
-
+- This is the comparing of a current value to a target value
+- Helps measure sucess and compare performance
 
 ### 4. Part-to-Whole 🧩
 
