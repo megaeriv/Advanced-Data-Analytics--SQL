@@ -6,7 +6,7 @@ CRM and ERP data. This would go further than the Exploratory Data analytics show
 ## Objective
 
 
-My data analytics would cover these areas:
+My data analytics would cover these following areas:
 
 ### 1. Change over Time ⏳
 - This is a technique to analyze how a measure evolves over time  
