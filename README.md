@@ -21,7 +21,8 @@ My data analytics would cover these following areas:
 - Helps measure sucess and compare performance
 
 ### 4. Part-to-Whole 🧩
-
+- Used to find proportion of a part relative to the whole
+- Helps to understand which category has the greatest impact on a business
 
 ### 5. Data Segmentation 🗂️
 
