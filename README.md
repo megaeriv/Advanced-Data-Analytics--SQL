@@ -23,7 +23,8 @@ My data analytics would cover the following areas below, the codes for each anal
 - Helps to understand which category has the greatest impact on a business
 
 ### 5. Data Segmentation 🗂️
-
+- This si sthegrouping of data based on a specific range
+- - It helps to understand the correlation between two measure
 
 ### 6. Reporting 📝
 
