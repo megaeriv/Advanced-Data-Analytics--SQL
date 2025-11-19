@@ -3,9 +3,7 @@
 This is a continuation of analysis on the data built into the data warehouse that was created to house  
 CRM and ERP data. This would go further than the Exploratory Data analytics shown in my previous repository
 
-## Objective
-
-
+## Analytics
 My data analytics would cover these following areas:
 
 ### 1. Change over Time ⏳
