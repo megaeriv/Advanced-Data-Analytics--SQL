@@ -4,7 +4,7 @@ This is a continuation of analysis on the data built into the data warehouse tha
 CRM and ERP data. This would go further than the Exploratory Data analytics shown in my previous repository
 
 ## Analytics
-My data analytics would cover these following areas:
+My data analytics would cover the following areas below, the codes for each analysis is stored in folder scripts
 
 ### 1. Change over Time ⏳
 - This is a technique to analyze how a measure evolves over time  
