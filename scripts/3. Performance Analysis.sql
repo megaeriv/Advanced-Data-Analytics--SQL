@@ -21,7 +21,7 @@ SELECT
 	order_year,
 	product_name,
 	total_sales,
-	AVG(total_sales) OVER(PARTITION BY product_name),
+	AVG(total_sales) OVER(PARTITION BY product_name) AS average_sales,
 	total_sales - AVG(total_sales) OVER(PARTITION BY product_name) AS diff_avg,
 	-- calculating avergae sales by product
 	-- using case function to determine comparison with average sales
