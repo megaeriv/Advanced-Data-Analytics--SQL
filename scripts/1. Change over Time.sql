@@ -15,5 +15,5 @@ SELECT
 	sum(quantity) AS total_quantity
 FROM gold.fact_sales
 WHERE order_date IS NOT NULL
-GROUP BY YEAR(order_date), DATENAME(MONTH,order_date)
-ORDER BY YEAR(order_date), DATENAME(MONTH,order_date);
+GROUP BY YEAR(order_date), MONTH(order_date), DATENAME(MONTH,order_date)
+ORDER BY YEAR(order_date), MONTH(order_date), DATENAME(MONTH,order_date);
