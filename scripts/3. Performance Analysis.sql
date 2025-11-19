@@ -23,6 +23,8 @@ SELECT
 	total_sales,
 	AVG(total_sales) OVER(PARTITION BY product_name),
 	total_sales - AVG(total_sales) OVER(PARTITION BY product_name) AS diff_avg,
+	-- calculating avergae sales by product
+	-- using case function to determine comparison with average sales
 	CASE 
 		WHEN total_sales - AVG(total_sales) OVER(PARTITION BY product_name) > 0 THEN 'Above change'
 		WHEN total_sales - AVG(total_sales) OVER(PARTITION BY product_name) < 0 THEN 'Below average'
@@ -30,6 +32,8 @@ SELECT
 	END AS Average_compare,
 	LAG(total_sales) OVER(PARTITION BY product_name ORDER BY order_year) AS previous_year_sale,
 	total_sales - LAG(total_sales) OVER(PARTITION BY product_name ORDER BY order_year) AS diff_prev,
+	-- calculating previous sales amount in the year per product
+	-- using case function to determine comparison with previous product sales
 	CASE 
 		WHEN total_sales - LAG(total_sales) OVER(PARTITION BY product_name ORDER BY order_year) > 0 THEN 'Increase'
 		WHEN total_sales - LAG(total_sales) OVER(PARTITION BY product_name ORDER BY order_year) < 0 THEN 'Decrease'
