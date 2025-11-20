@@ -24,7 +24,7 @@ My data analytics would cover the following areas below, the codes for each anal
 
 ### 5. Data Segmentation 🗂️
 - This si sthegrouping of data based on a specific range
-- - It helps to understand the correlation between two measure
+- It helps to understand the correlation between two measure
 
 ### 6. Reporting 📝
-
+- All inisghts gotten is documented together for viewing 
