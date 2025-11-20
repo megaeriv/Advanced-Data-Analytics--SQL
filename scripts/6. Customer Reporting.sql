@@ -32,12 +32,11 @@ Actions Behind Query
 -- =============================================================================
 -- Create Report: gold.report_customers
 -- =============================================================================
-/*IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
+IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
     DROP VIEW gold.report_customers;
 GO
 
-CREATE VIEW gold.report_customers AS*/
-
+CREATE VIEW gold.report_customers AS
 WITH base_query AS (
 ---------------------------------------------------------------------------
 -- i} Base Query: Retrieves core columns from tables
@@ -105,15 +104,15 @@ total_sales,
 total_quanitity,
 total_products,
 lifespan,
--- Compuate average order value (AVO)
+-- Compute average order value (AVO)
 CASE
 	WHEN total_sales = 0 THEN 0 -- so not to get 0 
 	ELSE total_sales/total_orders
 END AS average_order_value,
--- Compuate average monthly spend
+-- Compute average monthly spend
 CASE
 	WHEN lifespan = 0 THEN 0
 	WHEN total_sales = 0 THEN 0
 	ELSE total_sales/lifespan
-END AS average_order_value
+END AS average_monthly_spend
 FROM customer_aggregation
