@@ -27,4 +27,7 @@ My data analytics would cover the following areas below, the codes for each anal
 - It helps to understand the correlation between two measure
 
 ### 6. Reporting 📝
-- All inisghts gotten is documented together for viewing 
+- All inisghts gotten is documented together for viewing into
+  + Customer Reporting
+  + Product Reporting
+  
